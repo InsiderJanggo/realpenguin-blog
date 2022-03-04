@@ -11,12 +11,14 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import readingTime from 'reading-time'
+import { useRouter } from 'next/router'
 
 type Data = {
     post: IPost;
 }
 
 const PostCard: FC<Data> = ({ post }): JSX.Element => {
+    const router = useRouter();
     return(
         <Center py={6}>
       <Box
@@ -26,6 +28,7 @@ const PostCard: FC<Data> = ({ post }): JSX.Element => {
         boxShadow={'2xl'}
         rounded={'md'}
         cursor='pointer'
+        onClick={() => router.push(`/post/${post.slug}`)}
         p={6}
         overflow={'hidden'}>
         <Box
