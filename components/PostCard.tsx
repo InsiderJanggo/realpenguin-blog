@@ -25,6 +25,7 @@ const PostCard: FC<Data> = ({ post }): JSX.Element => {
         bg={useColorModeValue('white', 'gray.900')}
         boxShadow={'2xl'}
         rounded={'md'}
+        cursor='pointer'
         p={6}
         overflow={'hidden'}>
         <Box
