@@ -52,7 +52,7 @@ const Navbar: FC = (): JSX.Element => {
         },
         {
             label: 'About', href: '/about'
-        },
+        }
     ];
 
 

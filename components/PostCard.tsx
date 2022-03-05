@@ -20,7 +20,7 @@ type Data = {
 const PostCard: FC<Data> = ({ post }): JSX.Element => {
     const router = useRouter();
     return(
-        <Center py={6}>
+      <Center py={6}>
       <Box
         maxW={'445px'}
         w={'full'}

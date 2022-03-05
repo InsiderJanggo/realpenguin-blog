@@ -5,6 +5,7 @@ const realPenguin = {
     desc: 'Actress, musician, songwriter and artist. PM for work inquires or #tagme in your posts',
     twitter: {
         tags: '@wisly_ong',
+        url: 'https://twitter.com/wisly_ong',
         name: 'リアルペンギン🇮🇩🇯🇵'
     }
 }
