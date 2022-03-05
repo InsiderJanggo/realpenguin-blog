@@ -51,7 +51,7 @@ const Footer: FC = (): JSX.Element => {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-          <Text>© 2020 Chakra Templates. All rights reserved</Text>
+          <Text>© 2022 RealPenguin. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'https://twitter.com/wisly_ong'}>
               <FaTwitter />

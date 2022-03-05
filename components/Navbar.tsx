@@ -46,6 +46,7 @@ const NavLink: FC<NavlinkData> = ({ children, href }): JSX.Element => {
 const Navbar: FC = (): JSX.Element => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const { colorMode, toggleColorMode } = useColorMode()
+    const router = useRouter();
     const Links = [
         {
             label: 'Home', href: '/'
@@ -70,7 +71,7 @@ const Navbar: FC = (): JSX.Element => {
                 onClick={isOpen ? onClose : onOpen}
                 />
                 <HStack spacing={8} alignItems={'center'}>
-                    <Box>Logo</Box>
+                    <Box onClick={() => router.push('/')}>RealPenguin Blog</Box>
                     <HStack
                     as={'nav'}
                     spacing={4}
