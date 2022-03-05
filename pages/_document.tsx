@@ -5,7 +5,7 @@ import theme from "../lib/theme";
 const meta = {
     title: 'RealPenguin Blog',
     description: `Im a 16 Years old, Coding Dreamer Currently Learning React, Postgres, Graphql, Prisma, And Typescript.`,
-    image: 'https://localhost:3000/static/banner.jpg',
+    image: 'https://realpenguin-blog.vercel.app/static/banner.jpg',
     type: 'website'
 };
 
