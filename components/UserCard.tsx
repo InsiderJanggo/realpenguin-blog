@@ -7,7 +7,6 @@ import {
     Flex,
     Heading,
     Image,
-    Link,
     Stack,
     Text,
     useColorModeValue,
@@ -23,7 +22,7 @@ const UserCard: FC<Data> = ({ user }): JSX.Element => {
 
     return(
         <Center py={6}>
-            <Stack
+          <Stack
         borderWidth="1px"
         borderRadius="lg"
         w={{ sm: '100%', md: '540px' }}

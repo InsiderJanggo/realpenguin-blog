@@ -71,7 +71,7 @@ const Navbar: FC = (): JSX.Element => {
                 onClick={isOpen ? onClose : onOpen}
                 />
                 <HStack spacing={8} alignItems={'center'}>
-                    <Box onClick={() => router.push('/')}>RealPenguin Blog</Box>
+                    <Box cursor={'pointer'} onClick={() => router.push('/')}>RealPenguin Blog</Box>
                     <HStack
                     as={'nav'}
                     spacing={4}

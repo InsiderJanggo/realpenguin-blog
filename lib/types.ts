@@ -8,3 +8,16 @@ export type DiscordUser = {
 	banner_color: string,
 	accent_color: number
 }
+
+export enum Form {
+	Initial,
+	Loading,
+	Success,
+	Error
+}
+
+export type FormState = {
+	state: Form;
+	message?: string;
+};
+  

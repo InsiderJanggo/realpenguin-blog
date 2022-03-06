@@ -8,6 +8,10 @@ declare global {
             TWITTER_API_KEY_SECRET: string;
             BAERER_TOKEN: string;
             DISCORD_BOT_TOKEN: string;
+            DATABASE_URL: string;
+            NEXT_AUTH_SECRET: string;
+            OAUTH_CLIENT_SECRET: string;
+            OAUTH_CLIENT_KEY: string;
         }
     }
 }

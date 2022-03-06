@@ -2,6 +2,7 @@
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
+- **Authentication**: [NextAuth.js](https://next-auth.js.org/)
 - **Content**: [MD](https://www.markdownguide.org/)
 - **Styling**: [Chakra Ui](https://chakra-ui.com/) And [Tailwind CSS](https://tailwindcss.com/)
 

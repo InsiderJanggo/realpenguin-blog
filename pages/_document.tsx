@@ -14,9 +14,9 @@ export default class PenguinDocument extends Document {
         return(
             <Html>
                 <Head>
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href="/favicon.png" />
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:site" content="@leeerob" />
+                    <meta name="twitter:site" content="@wisly_ong" />
                     <meta name="twitter:title" content={meta.title} />
                     <meta name="twitter:description" content={meta.description} />
                     <meta name="twitter:image" content={meta.image} />
