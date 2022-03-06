@@ -1,8 +1,8 @@
 import type { GetStaticProps, NextPage } from 'next'
-import { getAllPost } from '../lib/markdownApi'
+import { getAllPost } from '@/lib/markdownApi'
 import Head from 'next/head'
 import { SimpleGrid } from '@chakra-ui/react'
-import PostCard from '../components/PostCard'
+import PostCard from '@/components/PostCard'
 
 type Data = {
   posts: any[]

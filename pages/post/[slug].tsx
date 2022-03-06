@@ -2,9 +2,9 @@ import { Container } from '@chakra-ui/react'
 import type { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import { ParsedUrlQuery } from 'querystring'
-import Markdown from '../../components/Markdown'
-import { getAllPost, getPostBySlug } from '../../lib/markdownApi'
-import IPost from '../../types/post'
+import Markdown from '@/components/Markdown'
+import { getAllPost, getPostBySlug } from '@/lib/markdownApi'
+import IPost from '@/types/post'
 
 interface IParams extends ParsedUrlQuery {
     slug: string

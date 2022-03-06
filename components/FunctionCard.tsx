@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Link from 'next/link';
 import Image from 'next/image';
-import ISnippet from "../types/snippet";
+import ISnippet from "@/types/snippet";
 
 // /static/
 

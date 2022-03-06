@@ -1,5 +1,5 @@
 import { FC } from "react";
-import IPost from "../types/post";
+import IPost from "@/types/post";
 import Image from 'next/image';
 import {
   Box,

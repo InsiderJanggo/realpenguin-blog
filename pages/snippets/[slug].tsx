@@ -1,11 +1,10 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from 'next'
-import Head from 'next/head'
 import { ParsedUrlQuery } from 'querystring'
 import { Fragment } from 'react'
-import SnippetLayout from '../../components/layout/snippet'
-import Markdown from '../../components/Markdown'
-import { allSnippets, getSnippetBySlug } from '../../lib/snippetLoader'
-import ISnippet from '../../types/snippet'
+import SnippetLayout from '@/components/layout/snippet'
+import Markdown from '@/components/Markdown'
+import { allSnippets, getSnippetBySlug } from '@/lib/snippetLoader'
+import ISnippet from '@/types/snippet'
 
 interface IParams extends ParsedUrlQuery {
   slug: string

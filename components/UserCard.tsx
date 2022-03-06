@@ -1,5 +1,5 @@
 import { FC } from "react";
-import IUser from "../types/user";
+import IUser from "@/types/user";
 import {
     Badge,
     Button,

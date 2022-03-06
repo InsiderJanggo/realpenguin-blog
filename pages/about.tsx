@@ -1,9 +1,9 @@
 import { SimpleGrid } from '@chakra-ui/react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import UserCard from '../components/UserCard';
-import { realPenguin } from '../data/users'
-import IUser from '../types/user';
+import UserCard from '@/components/UserCard';
+import { realPenguin } from '@/data/users'
+import IUser from '@/types/user';
 
 const About: NextPage = () => {
   return (
