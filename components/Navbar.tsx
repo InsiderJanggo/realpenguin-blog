@@ -56,6 +56,9 @@ const Navbar: FC = (): JSX.Element => {
         },
         {
             label: 'Snippets', href: '/snippets'
+        },
+        {
+            label: 'Dashboard', href: '/dashboard'
         }
     ];
 

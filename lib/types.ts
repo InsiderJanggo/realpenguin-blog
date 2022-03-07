@@ -16,8 +16,17 @@ export enum Form {
 	Error
 }
 
+export type YouTube = {
+	subscriberCount: number;
+	viewCount: number;
+};
+
 export type FormState = {
 	state: Form;
 	message?: string;
+};
+  
+export type GitHub = {
+	stars: number;
 };
   
