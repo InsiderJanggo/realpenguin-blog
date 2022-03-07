@@ -22,6 +22,9 @@ const Post: NextPage<Data> = ({ post }) => {
         <meta name='title' content={post?.title} />
         <meta name="description" content={post?.desc} />
         <meta name='image' content={post?.image} />
+        <meta property="og:title" content={post?.title} />
+        <meta property="og:url" content={`https://realpenguin-blog.vercel.app/post/${post?.slug}`} />
+        <meta property="og:image" content={post?.image} />
       </Head>
       <Container>
         <Markdown>

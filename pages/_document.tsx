@@ -18,8 +18,10 @@ export default class PenguinDocument extends Document {
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:site" content="@wisly_ong" />
                     <meta name="twitter:title" content={meta.title} />
+                    <meta property='og:type' content='website' />
                     <meta name="twitter:description" content={meta.description} />
                     <meta name="twitter:image" content={meta.image} />
+                    <meta name='theme-color' content='#8A2BE2' />
                 </Head>
                 <body>
                     <ColorModeScript initialColorMode={theme.config.initialColorMode} />
