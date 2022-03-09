@@ -20,9 +20,7 @@ const Category: NextPage<Data> = ({ name, posts }) => {
   return (
     <Container title={`${name} Categories - RealPenguin Blog`} description={`${name} Categories - RealPenguin Blog`}>
         <SimpleGrid columns={[1, 2, 1, 2]}>
-          {posts.filter((data) => name === data.category?.name).map((post) => (
-            <PostCard key={post.slug} post={post} />
-          ))}
+         
         </SimpleGrid>
     </Container>
   )
