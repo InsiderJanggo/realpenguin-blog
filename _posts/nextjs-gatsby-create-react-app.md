@@ -5,7 +5,7 @@
     image: '/posts/nextjs-gatsby-create-react-app.jpg'
     author:
         name: 'RealPenguin'
-        img: 'https://pbs.twimg.com/profile_images/1497984319972786176/INedGtRX_400x400.jpg'
+        img: 'https://pbs.twimg.com/profile_images/1501480834427396096/VzoSniL__400x400.jpg'
     category:
         color: 'blue.500'
         name: 'Dev'
