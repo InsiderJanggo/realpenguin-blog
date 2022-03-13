@@ -34,7 +34,10 @@ const Markdown: FC = ({ children }): JSX.Element => {
                             {children}
                           </code>
                         )
-                      }
+                      },
+                    a({ children }) {
+                      return <a style={{ color: 'blue' }}>{children}</a>
+                    }
                 }}
             >
                 {children as string}
