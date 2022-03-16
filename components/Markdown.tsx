@@ -35,8 +35,8 @@ const Markdown: FC = ({ children }): JSX.Element => {
                           </code>
                         )
                       },
-                    a({ children }) {
-                      return <a style={{ color: 'blue' }}>{children}</a>
+                    a({ children, href }) {
+                      return <a style={{ color: 'blue' }} href={href}>{children}</a>
                     }
                 }}
             >
